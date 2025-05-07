@@ -1,0 +1,31 @@
+.lastlinkButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  background-color: var(--accent-color);
+  color: var(--background-color);
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  transition: transform 0.2s, opacity 0.2s;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  max-width: 200px;
+
+  &:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+  }
+
+  .price {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .label {
+    font-size: 1rem;
+    opacity: 0.9;
+  }
+}
